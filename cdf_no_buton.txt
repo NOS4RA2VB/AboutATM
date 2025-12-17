@@ -1,0 +1,65 @@
+##############################-------CDF-------##############################
+
+try:
+    py_logger.info('Read CDF files')
+    file_path = r'C:\ProBase\INVENTORY'
+    pattern = 'INVENTORY.XML'
+
+    # правильные значения, с которыми сравниваем
+    VALID_USD = ["1048 movem_cdaa_usd.cdf"]
+    VALID_UZS = ["1009 movem_cdaa_uzs.cdf"]
+    VALID_FRM = ["1065 MOVEM_CDXX.PKG"]
+
+    VALID_USD_RM3 = ['1031 MOVE_AWAA_USD.CDF']
+    VALID_UZS_RM3 = ['1005 MOVE_AWAA_UZS.CDF']
+
+    for filename in os.listdir(file_path):
+        if re.findall(pattern, filename):
+            filepath = os.path.join(file_path, filename)
+
+            with open(filepath, mode='r', encoding='ANSI') as datacollect:
+                data = datacollect.read()
+
+            # ищем строки по шаблонам
+            USD = re.findall(r'\d\d\d\d+ movem_cdaa_usd.cdf', data)
+            UZS = re.findall(r'\d\d\d\d+ movem_cdaa_uzs.cdf', data)
+            FRM = re.findall(r'\d\d\d\d+ MOVEM_CDXX.PKG', data)
+
+            USDRM3 = re.findall(r'\d\d\d\d+ MOVE_AWAA_USD.CDF', data)
+            UZSRM3 = re.findall(r'\d\d\d\d+ MOVE_AWAA_UZS.CDF', data)
+            FRM3   = re.findall(r'\d\d\d\d+ MOVE_AWAA.FRM', data)
+
+            # собираем все в список для проверки
+            ALL = [
+                ("USD", USD, VALID_USD),
+                ("UZS", UZS, VALID_UZS),
+                ("FRM", FRM, VALID_FRM),
+                ("USDRM3", USDRM3, VALID_USD_RM3),
+                ("UZSRM3", UZSRM3, VALID_UZS_RM3),
+                ("FRM3", FRM3, None),
+            ]
+
+            # выводим на экран
+            for name, sublist, valid_list in ALL:
+                if sublist:
+                    for item in sublist:
+                        # по умолчанию чёрный текст
+                        color = "black"
+
+                        # если есть список валидных значений и item не входит — подсветить красным
+                        if valid_list and item not in valid_list:
+                            color = "red"
+
+                        label2 = Label(
+                            text=f"{name}: {item}",
+                            font=font2,
+                            fg=color
+                        )
+                        label2.pack(anchor='nw', padx=28, pady=1)
+                        py_logger.info("Read CDF OK")
+
+except Exception as e:
+    py_logger.exception(f"error: {e}")
+    print("error:", e)
+
+##############################-------CDF-------##############################

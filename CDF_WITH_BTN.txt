@@ -1,0 +1,60 @@
+##############################-------CDF-------##############################
+try:
+    file_path = r'C:\ProBase\INVENTORY'
+    pattern = 'INVENTORY.XML'
+
+    VALID_USD = ["1047 movem_cdaa_usd.cdf"]
+    VALID_UZS = ["1009 movem_cdaa_uzs.cdf"]
+    VALID_FRM = ["1065 MOVEM_CDXX.PKG"]
+
+    def update_files(filetype):
+        messagebox.showinfo("Обновление", f"Запуск обновления {filetype}...")
+
+    # общий контейнер для всех записей CDF
+    cdf_frame = tk.Frame(root)
+    cdf_frame.pack(anchor="w", padx=15, pady=10)   # <- теперь в колонке, а не поверх картинки
+
+    for filename in os.listdir(file_path):
+        if re.findall(pattern, filename):
+            filepath = os.path.join(file_path, filename)
+            with open(filepath, mode='r', encoding='ANSI') as datacollect:
+                data = datacollect.read()
+
+                USD = re.findall(r'\d\d\d\d+ movem_cdaa_usd.cdf', data)
+                UZS = re.findall(r'\d\d\d\d+ movem_cdaa_uzs.cdf', data)
+                FRM = re.findall(r'\d\d\d\d+ MOVEM_CDXX.PKG', data)
+
+                ALL = [
+                    ("USD", USD, VALID_USD),
+                    ("UZS", UZS, VALID_UZS),
+                    ("FRM", FRM, VALID_FRM),
+                ]
+
+                for name, sublist, valid_list in ALL:
+                    if sublist:
+                        for item in sublist:
+                            color = "black"
+                            need_button = False
+                            if valid_list and item not in valid_list:
+                                color = "red"
+                                need_button = False
+
+                            # контейнер для строки (label + button)
+                            row = tk.Frame(cdf_frame)
+                            row.pack(anchor='w', pady=2, fill="x")
+
+                            label2 = tk.Label(row, text=f"{name}: {item}", font=font2, fg=color)
+                            label2.pack(side="left")
+
+                            if need_button:
+                                btn = tk.Button(row, text="Обновить",
+                                                command=lambda n=name: update_files(n),
+                                                bg="orange", fg="white",
+                                                font=("Arial", 9, "bold"))
+                                btn.pack(side="left", padx=10)
+
+except Exception as e:
+    print("error:", e)
+
+
+##############################-------CDF-------##############################

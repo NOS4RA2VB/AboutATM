@@ -1,0 +1,29 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(2, 10, 10, 25),
+    prodvers=(2, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'CompanyName', u'BS/2 Uzbekistan'),
+        StringStruct(u'FileDescription', u'Helper'),
+        StringStruct(u'FileVersion', u'2.10.10.25'),
+        StringStruct(u'InternalName', u'aboutATM'),
+		StringStruct(u'LegalCopyright', u'BS/2 Uzbekistan PB&VB'),
+        StringStruct(u'OriginalFilename', u'aboutATM.exe'),
+        StringStruct(u'ProductName', u'aboutATM'),
+        StringStruct(u'ProductVersion', u'2.0.0')])
+      ]), 
+    VarFileInfo([VarStruct(u'Translation', [1049, 1200])])
+  ]
+)

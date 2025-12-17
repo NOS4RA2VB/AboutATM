@@ -1,0 +1,754 @@
+__main__ 2025-10-22 14:11:18,856 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-10-22 14:11:18,973 INFO Form Init - OK
+__main__ 2025-10-22 14:11:18,973 INFO Registry path is reading
+__main__ 2025-10-22 14:11:18,981 INFO Check path DeviceInfo..
+__main__ 2025-10-22 14:11:18,981 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-10-22 14:11:18,982 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-10-22 14:11:18,982 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-10-22 14:11:18,982 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-10-22 14:11:18,982 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 495, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-10-22 14:11:18,982 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-10-22 14:11:18,985 INFO Read path DeviceInfo - OK
+__main__ 2025-10-22 14:11:18,985 INFO Read CDF files
+__main__ 2025-10-22 14:11:18,997 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-10-22 14:11:18,997 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-10-22 14:11:18,997 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-11 11:56:09,103 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-11 11:56:09,237 INFO Form Init - OK
+__main__ 2025-11-11 11:56:09,237 INFO Registry path is reading
+__main__ 2025-11-11 11:56:09,245 INFO Check path DeviceInfo..
+__main__ 2025-11-11 11:56:09,245 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:56:09,245 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:56:09,246 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:56:09,246 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:56:09,247 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 495, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:56:09,247 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:56:09,249 INFO Read path DeviceInfo - OK
+__main__ 2025-11-11 11:56:09,249 INFO Read CDF files
+__main__ 2025-11-11 11:56:09,260 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-11 11:56:09,261 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-11 11:56:09,261 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-11 11:57:17,983 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-11 11:57:18,039 INFO Form Init - OK
+__main__ 2025-11-11 11:57:18,039 INFO Registry path is reading
+__main__ 2025-11-11 11:57:18,042 INFO Check path DeviceInfo..
+__main__ 2025-11-11 11:57:18,042 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:57:18,042 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:57:18,043 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:57:18,043 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:57:18,043 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 495, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:57:18,044 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-11 11:57:18,044 INFO Read path DeviceInfo - OK
+__main__ 2025-11-11 11:57:18,044 INFO Read CDF files
+__main__ 2025-11-11 11:57:18,047 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-11 11:57:18,047 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-11 11:57:18,047 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 12:43:07,936 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-20 12:43:08,112 INFO Form Init - OK
+__main__ 2025-11-20 12:43:08,112 INFO Registry path is reading
+__main__ 2025-11-20 12:43:08,122 INFO Check path DeviceInfo..
+__main__ 2025-11-20 12:43:08,122 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 12:43:08,122 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 12:43:08,122 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 12:43:08,123 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 12:43:08,123 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 495, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 12:43:08,123 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 458, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 12:43:08,124 INFO Read path DeviceInfo - OK
+__main__ 2025-11-20 12:43:08,125 INFO Read CDF files
+__main__ 2025-11-20 12:43:08,135 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-20 12:43:08,135 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-20 12:43:08,135 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 12:43:08,141 ERROR Patern_not_found
+NoneType: None
+__main__ 2025-11-20 13:06:26,437 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-20 13:06:26,498 INFO Form Init - OK
+__main__ 2025-11-20 13:06:26,498 INFO Registry path is reading
+__main__ 2025-11-20 13:06:26,504 INFO Check path DeviceInfo..
+__main__ 2025-11-20 13:06:26,513 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:26,513 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:26,513 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:26,514 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:26,514 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 552, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:26,514 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:26,516 INFO Read path DeviceInfo - OK
+__main__ 2025-11-20 13:06:26,516 INFO Read CDF files
+__main__ 2025-11-20 13:06:26,518 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-20 13:06:26,518 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-20 13:06:26,518 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 13:06:26,519 ERROR Patern_not_found
+NoneType: None
+__main__ 2025-11-20 13:06:28,319 INFO Open window Rename Configuration
+__main__ 2025-11-20 13:06:28,320 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 13:06:28,320 INFO Check configuration...
+__main__ 2025-11-20 13:06:28,320 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:28,320 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:28,321 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:41,773 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:41,774 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:41,774 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:41,775 ERROR WinError - Access error
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 150, in write_registry
+    registry_key = winreg.CreateKey(winreg.HKEY_LOCAL_MACHINE, reg_path)
+PermissionError: [WinError 5] Отказано в доступе
+__main__ 2025-11-20 13:06:43,123 INFO Created missing registry param: Communication/IpAddress = 192.168.113.29
+__main__ 2025-11-20 13:06:53,515 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:53,515 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:53,515 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:53,516 ERROR WinError - Access error
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 150, in write_registry
+    registry_key = winreg.CreateKey(winreg.HKEY_LOCAL_MACHINE, reg_path)
+PermissionError: [WinError 5] Отказано в доступе
+__main__ 2025-11-20 13:06:54,542 INFO Created missing registry param: PaymentsNG/TerminalID = 489456
+__main__ 2025-11-20 13:06:59,300 INFO Open window Rename Configuration
+__main__ 2025-11-20 13:06:59,300 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 13:06:59,300 INFO Check configuration...
+__main__ 2025-11-20 13:06:59,300 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:59,301 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 13:06:59,302 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:30,980 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-20 14:03:31,111 INFO Form Init - OK
+__main__ 2025-11-20 14:03:31,111 INFO Registry path is reading
+__main__ 2025-11-20 14:03:31,117 INFO Check path DeviceInfo..
+__main__ 2025-11-20 14:03:31,117 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 493, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:31,118 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 493, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:31,118 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 493, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:31,118 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 493, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:31,118 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 530, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:31,119 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 493, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:31,120 INFO Read path DeviceInfo - OK
+__main__ 2025-11-20 14:03:31,120 INFO Read CDF files
+__main__ 2025-11-20 14:03:31,140 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-20 14:03:31,140 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-20 14:03:31,140 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 14:03:31,159 ERROR Patern_not_found
+NoneType: None
+__main__ 2025-11-20 14:03:32,656 INFO Open window Rename Configuration
+__main__ 2025-11-20 14:03:32,656 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 14:03:32,656 INFO Check configuration...
+__main__ 2025-11-20 14:03:32,656 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:32,657 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:32,658 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:42,257 INFO Open window Rename Configuration
+__main__ 2025-11-20 14:03:42,257 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 14:03:42,257 INFO Check configuration...
+__main__ 2025-11-20 14:03:42,257 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:42,258 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:03:42,258 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:09,134 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-20 14:05:09,186 INFO Form Init - OK
+__main__ 2025-11-20 14:05:09,186 INFO Registry path is reading
+__main__ 2025-11-20 14:05:09,189 INFO Check path DeviceInfo..
+__main__ 2025-11-20 14:05:09,189 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:09,190 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:09,190 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:09,190 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:09,191 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 552, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:09,191 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 515, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:09,192 INFO Read path DeviceInfo - OK
+__main__ 2025-11-20 14:05:09,192 INFO Read CDF files
+__main__ 2025-11-20 14:05:09,194 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-20 14:05:09,194 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-20 14:05:09,194 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 14:05:09,195 ERROR Patern_not_found
+NoneType: None
+__main__ 2025-11-20 14:05:10,508 INFO Open window Rename Configuration
+__main__ 2025-11-20 14:05:10,508 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 14:05:10,508 INFO Check configuration...
+__main__ 2025-11-20 14:05:10,508 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:10,509 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:05:10,509 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:37,772 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-20 14:06:37,827 INFO Form Init - OK
+__main__ 2025-11-20 14:06:37,827 INFO Registry path is reading
+__main__ 2025-11-20 14:06:37,830 INFO Check path DeviceInfo..
+__main__ 2025-11-20 14:06:37,830 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:37,831 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:37,831 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:37,832 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:37,832 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 533, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:37,832 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:37,833 INFO Read path DeviceInfo - OK
+__main__ 2025-11-20 14:06:37,833 INFO Read CDF files
+__main__ 2025-11-20 14:06:37,835 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-20 14:06:37,835 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-20 14:06:37,835 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 14:06:37,835 ERROR Patern_not_found
+NoneType: None
+__main__ 2025-11-20 14:06:39,243 INFO Open window Rename Configuration
+__main__ 2025-11-20 14:06:39,244 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 14:06:39,244 INFO Check configuration...
+__main__ 2025-11-20 14:06:39,244 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:39,245 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:06:39,245 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:39,692 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-20 14:16:39,781 INFO Form Init - OK
+__main__ 2025-11-20 14:16:39,781 INFO Registry path is reading
+__main__ 2025-11-20 14:16:39,787 INFO Check path DeviceInfo..
+__main__ 2025-11-20 14:16:39,787 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:39,788 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:39,788 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:39,788 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:39,788 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 533, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:39,789 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 496, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:39,791 INFO Read path DeviceInfo - OK
+__main__ 2025-11-20 14:16:39,791 INFO Read CDF files
+__main__ 2025-11-20 14:16:39,793 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-20 14:16:39,793 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-20 14:16:39,793 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 14:16:39,793 ERROR Patern_not_found
+NoneType: None
+__main__ 2025-11-20 14:16:41,197 INFO Open window Rename Configuration
+__main__ 2025-11-20 14:16:41,197 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 14:16:41,197 INFO Check configuration...
+__main__ 2025-11-20 14:16:41,197 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:41,198 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:41,198 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:43,370 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:43,371 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:43,371 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:43,371 ERROR WinError - Access error
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 150, in write_registry
+    registry_key = winreg.CreateKey(winreg.HKEY_LOCAL_MACHINE, reg_path)
+PermissionError: [WinError 5] Отказано в доступе
+__main__ 2025-11-20 14:16:44,520 INFO Created missing registry param: Communication/IpAddress = 56
+__main__ 2025-11-20 14:16:44,520 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:44,521 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:44,521 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:47,448 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:47,448 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:47,449 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:47,449 ERROR WinError - Access error
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 150, in write_registry
+    registry_key = winreg.CreateKey(winreg.HKEY_LOCAL_MACHINE, reg_path)
+PermissionError: [WinError 5] Отказано в доступе
+__main__ 2025-11-20 14:16:48,652 INFO Created missing registry param: Communication/IpAddress = 56956
+__main__ 2025-11-20 14:16:48,652 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:48,652 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:16:48,653 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:08,434 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-11-20 14:25:08,490 INFO Form Init - OK
+__main__ 2025-11-20 14:25:08,490 INFO Registry path is reading
+__main__ 2025-11-20 14:25:08,493 INFO Check path DeviceInfo..
+__main__ 2025-11-20 14:25:08,494 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:08,494 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:08,494 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:08,495 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:08,495 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 536, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:08,495 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:08,496 INFO Read path DeviceInfo - OK
+__main__ 2025-11-20 14:25:08,496 INFO Read CDF files
+__main__ 2025-11-20 14:25:08,498 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-11-20 14:25:08,498 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-11-20 14:25:08,498 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-11-20 14:25:08,499 ERROR Patern_not_found
+NoneType: None
+__main__ 2025-11-20 14:25:11,126 INFO Open window Rename Configuration
+__main__ 2025-11-20 14:25:11,126 INFO Init form Rename Configuration - OK
+__main__ 2025-11-20 14:25:11,126 INFO Check configuration...
+__main__ 2025-11-20 14:25:11,127 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:11,127 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:11,128 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:13,295 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:13,297 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:13,297 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:14,474 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:14,475 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:14,475 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:14,476 ERROR WinError - Access error
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 150, in write_registry
+    registry_key = winreg.CreateKey(winreg.HKEY_LOCAL_MACHINE, reg_path)
+PermissionError: [WinError 5] Отказано в доступе
+__main__ 2025-11-20 14:25:15,253 INFO Created missing registry param: Communication/IpAddress = ывф
+__main__ 2025-11-20 14:25:15,253 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:15,254 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-11-20 14:25:15,254 ERROR Error read registry!
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 128, in read_registry
+    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, reg_path, 0, winreg.KEY_READ)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-12-17 09:58:44,488 INFO Starting.. aboutATM - v2.0.101025
+__main__ 2025-12-17 09:58:44,649 INFO Form Init - OK
+__main__ 2025-12-17 09:58:44,649 INFO Registry path is reading
+__main__ 2025-12-17 09:58:44,656 INFO Check path DeviceInfo..
+__main__ 2025-12-17 09:58:44,656 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\DEVICEINFO\Software
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-12-17 09:58:44,656 ERROR Key is not found: SOFTWARE\WOW6432Node\Diebold Nixdorf\ProBase\Install
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-12-17 09:58:44,656 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\InstallationInfo
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-12-17 09:58:44,657 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProAgent\CurrentVersion\SSTP
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-12-17 09:58:44,657 ERROR Key is not found: SOFTWARE\WOW6432Node\BS/2\ATMeye
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 536, in <module>
+    vATMeye = winreg.QueryValueEx(checkPath, "AgentVersion")
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-12-17 09:58:44,657 ERROR Key is not found: SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\BS/2\PaymentsNG
+Traceback (most recent call last):
+  File "D:\BS2Projects\ABOUT-ATM\About_ATM3\aboutATM (2).py", line 499, in <module>
+    checkPath = winreg.OpenKey(locPath, i)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+__main__ 2025-12-17 09:58:44,659 INFO Read path DeviceInfo - OK
+__main__ 2025-12-17 09:58:44,659 INFO Read CDF files
+__main__ 2025-12-17 09:58:44,668 INFO Read CDF OK ['1046 movem_cdaa_usd.cdf']
+__main__ 2025-12-17 09:58:44,668 INFO Read CDF OK ['1009 movem_cdaa_uzs.cdf']
+__main__ 2025-12-17 09:58:44,669 INFO Read CDF OK ['1065 MOVEM_CDXX.PKG']
+__main__ 2025-12-17 09:58:44,674 ERROR Patern_not_found
+NoneType: None
